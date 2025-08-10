@@ -1,0 +1,21 @@
+Navigate to www.google.com
+Click the search box
+Type "bicycles"
+Press Enter
+Wait for search results
+Execute JavaScript to extract search result titles
+Take a snapshot to capture the current page state
+
+
+test step -> orchestrator -> LLM -> creates a structured output -> tool calls identified and called -> tool response handled by orchestrator -> response fed to LLM along with page state -> next step interpreted by LLM with new context and previous page snapshot -> loop
+
+Orchestrator passes the test step to the LLM (open ai via chat completion api), then creates a structured output and then which contains the tool to be called after its interpretation, the tool response is handled and the page snapshot is fed back to the LLM along with next step, again LLM uses newly provided context to create a structured output to identity next tool call and now next works as the element refs are provided
+
+change logs
+we need to structure the output -
+tool call 
+tool response
+and repeat 
+i want to see the response of each tool with the refs
+lets remove all the unnecessary logging in the console and modify the analysis response to 
+summarize whatever is the outcome and include the actual json response
