@@ -1,0 +1,4 @@
+Navigate to https://ai-storyteller.stage-preview.emergentagent.com/
+Fill email field with ab@g
+Fill password field with 12345
+Click on Sign in button

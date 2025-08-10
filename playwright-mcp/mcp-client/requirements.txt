@@ -1,0 +1,12 @@
+mcp
+httpx
+click
+pydantic
+python-dotenv
+openai
+anthropic
+aiohttp
+asyncio-mqtt
+tenacity
+jinja2
+rich

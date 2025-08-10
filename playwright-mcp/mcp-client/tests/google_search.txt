@@ -1,0 +1,4 @@
+Navigate to www.google.com
+Search cursor docs
+Press Enter
+click on the first result
