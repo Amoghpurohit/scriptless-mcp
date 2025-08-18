@@ -171,8 +171,8 @@ IMPORTANT:
 - action_type MUST exactly match one of the tool names from the list above
 - parameters MUST be a JSON object (dictionary), NOT an array
 - For complex actions involving multiple elements, focus on the FIRST element only
-- If instructions has scoll in it, its likely for visual validation for user dont verify playwright code nor the console logs for it
- - If instructions has wait in it, its likely for visual validation for user dont verify playwright code nor the console logs for it
+- If instructions has scoll in it, its likely for visual validation for user DON'T verify playwright code or the console logs for it
+- If instructions has wait in it, its likely for visual validation for user, ignore any resource load issues and DON'T verify playwright code and DON'T check the console logs for it
  - For waits, DO NOT include unsupported keys like "element", "ref", or "timeout". Use ONLY: 
    - "time" (seconds to wait), or
    - "text" (wait until text appears), or
@@ -391,7 +391,7 @@ Be thorough in your analysis and provide clear reasoning.
         
         # Provide helpful guidance to treat fresh snapshots/UI changes as evidence of action execution
         reasoning_hint = (
-            "First, verify the expected element label/ref from the step parameters is present in the snapshot when the action targets an element (click/type/select/hover/drag/press). "
+            "First, verify the expected element label/ref from the step parameters is present in the snapshot when the action targets an element (click/type/select/hover/drag/press/wait for). "
             "If the expected element label/ref is missing in the trimmed snapshot, assume the context may be truncated and fallback to the full snapshot data (if provided) before concluding. "
             "Only if element evidence is present (or not required for this action type), then consider diffs/new snapshot signals. "
             "Treat a new or changed snapshot, increases in 'ref=' lines, added UI nodes, or new UI keywords as supporting evidence, not the sole basis."

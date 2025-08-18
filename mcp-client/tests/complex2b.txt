@@ -1,5 +1,5 @@
-Navigate to https://skillswap-1.stage-preview.emergentagent.com/
-Wait until Your Profile is visible for 2 seconds
+Navigate to https://skillswap-1.stage-preview.emergentagent.com
+Wait for Your Profile section to load for 2 seconds
 Enter TestUser1 for Name in the Your Profile section
 Enter TestLocation1 for Location in the Your Profile section
 Enter a random Bio (1–2 sentences) in the Your Profile section
