@@ -1,0 +1,5 @@
+Navigate to https://smart-meal-planner-2.stage-preview.emergentagent.com/login
+Click on Sign in with Email button
+Click on Continue with Google button
+Click on amogh@emergent.sh
+Click on the 'Continue' button within sign in the with Google section

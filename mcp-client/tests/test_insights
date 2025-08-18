@@ -1,0 +1,20 @@
+
+things to change from running steps - 
+ask the LLM to not be too strict with result Analysis
+if instructions has scoll in it, its likely for visual validation for user dont verify playwright code for it
+receiving click action was accepted is sufficient to pass the step in most cases, you do not need confirmation everytime as there might not be one everytime.
+
+
+NEXT STEPS - 
+SYS CACHE - COST
+TACKLE SLOWNESS BY MODEL CHANGE OR ARCHITECTURAL CHANGE - TIME
+SERVER PINGING - ITS TOO OFTEN AND UNNECESSARY RIGHT NOW
+
+include total time in meta in min:sec
+
+give the LLM only as little/precise info as it needs to judge the pass_fail param
+
+
+debugging order - 
+
+check if the sse_event has given the snapshot/page state

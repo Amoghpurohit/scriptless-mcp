@@ -1,0 +1,11 @@
+Navigate to https://skillswap-1.stage-preview.emergentagent.com/
+Wait until Your Profile is visible for 2 seconds
+Enter TestUser1 for Name in the Your Profile section
+Enter TestLocation1 for Location in the Your Profile section
+Enter a random Bio (1–2 sentences) in the Your Profile section
+Enter some random Skills you offer (comma-separated, e.g., cooking, guitar)
+Enter some random Skills you need (comma-separated, e.g., plumbing, painting)
+Click on Update button
+Click the first "Propose Swap" button under "Browse Listings" section
+Fill the Your offered skill with Cooking or Guitar
+Click on Send Proposal

@@ -1,0 +1,6 @@
+Navigate to https://skillswap-1.stage-preview.emergentagent.com/
+Wait until Your Profile is visible for 2 seconds
+Click the first "Propose Swap" button under the "Browse Listings" section
+Enter Cooking in the "Your offered skill" 
+Click on Send Proposal
+Confirm if the swap is visible under the My Swaps section

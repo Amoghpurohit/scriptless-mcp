@@ -1,0 +1,7 @@
+Navigate to https://barter-skills.stage-preview.emergentagent.com/
+Enter a offer name in the 'Post an offer' section
+Enter a description in the Post section
+Click on Post button
+Go to on Find Needs tab
+Click on the 1st Propose Swap
+Click on Submit proposal

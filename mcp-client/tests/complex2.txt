@@ -1,0 +1,12 @@
+Navigate to https://skillswap-1.stage-preview.emergentagent.com/
+Scroll down to Your Profile section
+Enter a random Name
+Enter a random Location
+Enter a random Bio
+Enter some random Skills you offer
+Enter some random Skills you need
+Click on Save Profile
+Scroll down to Browse Listings section
+Click on Propose Swap
+Fill a skill in the formfield
+Click on Send Proposal Button
